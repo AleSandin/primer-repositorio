@@ -26,7 +26,8 @@ grid-gap: 1px
     justify-content: center;
     align-items: center;}
 
-.div-empresa{grid-area: div-empresa;}
+ 
+.div-empresa{grid-area: div-empresa; background-image: linear-gradient(36deg, #eee8e8, transparent);}
 
 .imagen{ max-width: 450px; max-height:350px;}
 
