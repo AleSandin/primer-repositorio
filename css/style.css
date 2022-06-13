@@ -24,7 +24,7 @@ grid-gap: 1px
 
 .footer{grid-area: footer;background-color: rgb(5, 92, 98); display: flex;
     justify-content: center;
-    align-items: center;}
+    align-items: center;     transform: rotate(9deg);}
 
  
 .div-empresa{grid-area: div-empresa; background-image: linear-gradient(36deg, #eee8e8, transparent);}
@@ -57,3 +57,4 @@ width: fit-content; height: fit-content;}
         align-items: center;
         align-content: center;}
       
+     
