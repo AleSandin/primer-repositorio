@@ -1,0 +1,58 @@
+*{margin: 0;
+padding: 0;}
+
+
+.grilla{ display: grid;
+    background-color: rgb(5, 92, 98);   
+grid-template-areas: "logo navegacion navegacion navegacion"
+"section1 section1 section1 section1"
+"section2 section2 section2 section2"
+"div-empresa div-empresa div-empresa div-empresa"
+"footer footer footer footer";
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-gap: 1px
+
+}
+ 
+.logo{grid-area: logo;}
+
+.navegacion{grid-area: navegacion; background-color: rgb(5, 92, 98);}
+
+.section1{grid-area: section1; background-color: rgb(5, 92, 98); display: flex}
+
+.section2{grid-area: section2; background-color: rgb(5, 92, 98); display: flex;}
+
+.footer{grid-area: footer;background-color: rgb(5, 92, 98); display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.div-empresa{grid-area: div-empresa;}
+
+.imagen{ max-width: 450px; max-height:350px;}
+
+nav{ display: flex;
+    align-items: flex-end;
+    justify-content: space-around;}
+
+
+ul{ width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: stretch;}
+
+li{ display: inline-block; font-size: 25px;
+width: fit-content; height: fit-content;}
+
+.item-navegacion{ justify-content: space-between; font-family: sans-serif;
+    color: white}
+
+    .imagen-clinica{width: 50%;height: auto;}
+
+    .parrafo{ width: 50%; color: aqua;
+        margin: 5px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;}
+      
